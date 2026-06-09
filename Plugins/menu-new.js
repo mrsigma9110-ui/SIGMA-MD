@@ -39,7 +39,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363348739987203@newsletter',
+                newsletterJid: '120363408308217975@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -51,7 +51,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                        image: { url: config.MENU_IMAGE_URL || '<img src="https://img.sanishtech.com/u/84db4cdcfb4bc8b59d6a852614eeb36f.jpg" alt="1000230302" loading="lazy" style="max-width:100%;height:auto;">' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -418,7 +418,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                                        image: { url: config.MENU_IMAGE_URL || '<img src="https://img.sanishtech.com/u/84db4cdcfb4bc8b59d6a852614eeb36f.jpg" alt="1000230302" loading="lazy" style="max-width:100%;height:auto;">' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
